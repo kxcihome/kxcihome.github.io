@@ -20,4 +20,8 @@
       <loc>https://recipe.kxci.us</loc>
       <priority>0.70</priority>
    </url>
+   <url>
+      <loc>https://flower.kxci.us</loc>
+      <priority>0.70</priority>
+   </url>
 </urlset>
