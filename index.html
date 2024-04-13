@@ -39,36 +39,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="https://search.kxci.us/logo.png" itemprop="image">
   
-    <!-- Schema.org for Google -->
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
+    <!-- Schema.org for Google on Homepage (kxci.us) -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "KXCI.US",
+    "url": "https://kxci.us",
+    "logo": "https://search.kxci.us/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/websearchviacamera",
+      "https://www.linkedin.com/company/websearch-via-camera/about/"
+    ],
+    "description": "At KXCI, we're redefining the search experience with our innovative products.",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "email": "info@kxci.us",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5900 Balcones Drive, Suite 100",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "postalCode": "78731",
+      "addressCountry": "USA"
+    },
+    "subOrganization": [{
         "@type": "Organization",
-        "name": "KXCI.US",
-        "url": "https://kxci.us",
-        "logo": "https://search.kxci.us/logo.png",
-        "sameAs": [
-          "https://www.facebook.com/websearchviacamera",
-          "https://www.linkedin.com/company/websearch-via-camera/about/"
-        ],
-        "description": "At KXCI, we're redefining the search experience. Imagine capturing the essence of your query with just a snapshot — that's the simplicity we aim for.",
-        "contactPoint": [{
-          "@type": "ContactPoint",
-          "email": "info@kxci.us",
-          "contactType": "customer service",
-          "areaServed": "US",
-          "availableLanguage": "English"
-        }],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "5900 Balcones Drive, Suite 100",
-          "addressLocality": "Austin",
-          "addressRegion": "TX",
-          "postalCode": "78731",
-          "addressCountry": "USA"
-        }
-    }
-    </script>
+        "name": "Logo Search",
+        "url": "https://logo.kxci.us"
+      },{
+        "@type": "Organization",
+        "name": "Recipe Search",
+        "url": "https://recipe.kxci.us"
+      },{
+        "@type": "Organization",
+        "name": "Advanced Search",
+        "url": "https://search.kxci.us"
+      },{
+        "@type": "Organization",
+        "name": "Fashion Search",
+        "url": "https://fashion.kxci.us"
+      },{
+        "@type": "Organization",
+        "name": "Flower Search",
+        "url": "https://flower.kxci.us"
+    }]
+}
+</script>
     
     <style>
       /**
