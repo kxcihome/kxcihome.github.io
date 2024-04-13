@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="manifest" href="/manifest.json" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          }).catch(error => {
+            console.error('Service Worker registration failed:', error);
+          });
+        });
+      }
+    </script>
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <!-- 
@@ -11,6 +23,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.00001, viewport-fit=cover"
     />
+<<<<<<< Updated upstream
     
 
 <title>Experience the Revolution in Search | KXCI.US</title>
@@ -91,6 +104,9 @@
 }
 </script>
     
+=======
+    <title>kxci-us</title>
+>>>>>>> Stashed changes
     <style>
       /**
        * Extend the react-native-web reset:
@@ -139,7 +155,7 @@
         }
       }*/
     </style>
-  <link rel="preload" href="/expo/static/css/styles-1f87850af5051b20fe1fbacc0efc30f3.css" as="style"><link rel="stylesheet" href="/expo/static/css/styles-1f87850af5051b20fe1fbacc0efc30f3.css"><link rel="shortcut icon" href="/favicon.ico" /></head>
+  <link rel="preload" href=" /expo/static/css/styles-bc03e3e5738df1c2504f4c3a8105774f.css" as="style"><link rel="stylesheet" href=" /expo/static/css/styles-bc03e3e5738df1c2504f4c3a8105774f.css"><link rel="shortcut icon" href="/favicon.ico" /></head>
 
   <body>
     <!-- 
@@ -192,6 +208,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/expo/static/js/web/entry-f93768d67532c51e0d7095556ddc23b5.js" defer></script>
+  <script src=" /expo/static/js/web/entry-bb7b21f22bc4941e3140d59cf4fcaaa8.js" defer></script>
 </body>
 </html>
